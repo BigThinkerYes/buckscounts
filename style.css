@@ -7,9 +7,49 @@
     darkgreen #1e3932
 */
 * {
-  color: #27251F;
+  color: #27251f;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
 /* your code */
+body {
+  margin: 0 auto;
+  background-color: #1e3932;
+  width: 50%;
+}
+nav,
+h1 {
+  color: #fff;
+  font-size: 1.6em;
+  margin-bottom: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  background-color: rgb(171, 175, 175);
+  padding: 0.5rem;
+  margin-bottom: 0.6rem;
+  border-radius: 2px;
+  display: flex;
+  justify-content: stretch;
+}
+
+.city-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border: 2px solid #fff;
+  padding: 12px 5px;
+}
+.city-list > div {
+  padding-bottom: 0.3rem;
+}
+.city-item {
+  margin: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: end;
+  background-color: #d4e9e2;
+}
